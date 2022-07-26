@@ -1,1 +1,13 @@
+<<<<<<< HEAD
 /* Add CSS Styling */
+=======
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+>>>>>>> 36acd14 (Add foundations 04 attempt)
