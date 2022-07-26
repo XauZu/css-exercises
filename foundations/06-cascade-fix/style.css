@@ -8,7 +8,7 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,7 +17,7 @@ body {
   font-size: 22px;
 }
 
-.confirm {
+button.confirm {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,9 +29,14 @@ body {
   font-size: 20px;
 }
 
+<<<<<<< HEAD
 .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
+=======
+div.text.child {
+  color: red;
+>>>>>>> 3b3f3b4 (Add foundations 06 attempt)
   font-size: 14px;
 }
 
