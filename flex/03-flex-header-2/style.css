@@ -18,6 +18,12 @@ body {
   align-items: center;
 }
 
+.header > div {
+  display: flex;
+  padding: 8px;
+  gap: 16px;
+}
+
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -59,4 +65,7 @@ ul {
   margin: 0px;
   padding: 0px;
   justify-self: left;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
