@@ -22,18 +22,28 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 
   display: flex;
-  gap: 8px;
-  padding: 8px;
+  gap: 16px;
+  padding: 16px;
 }
 
 .center {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 16px;
+}
+
+.center > .header {
+  font-weight: bold;
+  font-size: large;
 }
 
 .center > .buttons {
   display: flex;
+  gap: 8px;
+}
+
+.text {
+  max-width: 400px;
 }
 
 .icon {
@@ -47,6 +57,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  justify-self: left;
+  flex: 0 0 auto;
 }
 
 .close-button {
@@ -60,8 +73,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   border: 1px solid #eee;
   padding: 0;
+=======
+
+  justify-self: right;
+  flex: 0 0 auto;
+>>>>>>> 3996676 (Fix index divs, spacing, size issues)
 }
 
 button {
