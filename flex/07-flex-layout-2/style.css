@@ -27,3 +27,46 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex: auto;
+}
+
+.card {
+  padding: 16px;
+  margin: 8px;
+  width: 300px;
+}
+
+ul {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
