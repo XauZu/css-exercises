@@ -30,26 +30,37 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  margin: 0px;
 }
 
 .header {
   display: flex;
   padding: 16px;
+  margin: 0px;
+  font-size: 32px;
+  font-weight: 900;
+  align-items: center;
+  justify-self: flex-start;
 }
 
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-self: flex-end;
 }
 
 .center {
   display: flex;
+  flex: 1;
 }
 
 .sidebar {
   display: flex;
   flex-direction: column;
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .content {
@@ -59,13 +70,23 @@ body {
 }
 
 .card {
-  padding: 16px;
+  display: flex;
+  padding: 32px;
   margin: 8px;
   width: 300px;
 }
 
 ul {
-  text-decoration: none;
-  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
   list-style: none;
+  gap: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
 }
