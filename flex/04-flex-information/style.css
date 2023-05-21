@@ -3,11 +3,26 @@ body {
 
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-.top, .bot {
+.top {
   display: flex;
+  margin-bottom: 32px;
+}
+
+.bot {
+  display: flex;
+  gap: 52px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
   flex: auto;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
 }
 
 img {
