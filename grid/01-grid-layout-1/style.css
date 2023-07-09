@@ -36,6 +36,7 @@ html {
 }
 
 .sidebar {
+<<<<<<< HEAD
   background-color: #005B94;
 }
 
@@ -49,6 +50,23 @@ html {
 
 .footer {
   background-color: #393f4d;
+=======
+  background-color: #FF7755;
+  grid-column: 1;
+  grid-row: 2 / span 2;
+}
+
+.nav {
+  background-color: #00DDFF;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.article {
+  background-color: #bccbde;
+  grid-column: 2;
+  grid-row: 3;
+>>>>>>> f5256c6 (Add styling to sidebar, nav, and article. Fix footer)
 }
 
 .article p {
@@ -64,6 +82,6 @@ html {
 .footer {
   background-color: #393f4d;
   grid-column: 1 / span 2;
-  grid-row: 3;
+  grid-row: 4;
 }
 >>>>>>> 83f6d7b (Add styling to header and footer)
