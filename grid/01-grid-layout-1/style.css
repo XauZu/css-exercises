@@ -26,7 +26,13 @@ html {
 }
 
 .header {
+<<<<<<< HEAD
   background-color: #006157;
+=======
+  background-color: #FFDE22;
+  grid-column: 1 / span 2;
+  grid-row: 1;
+>>>>>>> 83f6d7b (Add styling to header and footer)
 }
 
 .sidebar {
@@ -50,4 +56,14 @@ html {
   font-family: sans-serif;
   color: white;
   text-align: left;
+<<<<<<< HEAD
 }
+=======
+}
+
+.footer {
+  background-color: #393f4d;
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+>>>>>>> 83f6d7b (Add styling to header and footer)
