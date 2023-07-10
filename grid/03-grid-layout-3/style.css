@@ -92,10 +92,15 @@
 
 /* Changes */
 
-/* Header */
-.header, .sidebar {
+.container, .header, .sidebar {
   display: grid;
 }
+
+.container {
+  grid-template: 1fr 9fr / 1fr 5fr;
+}
+
+/* Header */
 
 .header {
   grid-template-columns: 1fr 2fr;
@@ -116,3 +121,7 @@ ul {
 }
 
 /* Sidebar */
+
+.sidebar {
+  grid-template-rows: repeat(4, 1fr);
+}
