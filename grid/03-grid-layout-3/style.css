@@ -94,6 +94,8 @@
 }
 
 /* Changes */
+
+/* Header */
 .header, .sidebar {
   display: grid;
 }
@@ -114,5 +116,11 @@
 
 ul {
   list-style: none;
+<<<<<<< HEAD
 >>>>>>> 9e8da95 (Add grid styling to header)
 }
+=======
+}
+
+/* Sidebar */
+>>>>>>> fe0c03b (Add css labeling)
