@@ -9,6 +9,9 @@ html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  
+  display: grid;
+  gap: 15px;
 }
 
 .container div {
