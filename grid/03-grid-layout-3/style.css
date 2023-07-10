@@ -91,6 +91,8 @@
 }
 
 /* Changes */
+
+/* Header */
 .header, .sidebar {
   display: grid;
 }
@@ -112,3 +114,5 @@
 ul {
   list-style: none;
 }
+
+/* Sidebar */
