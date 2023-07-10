@@ -95,10 +95,15 @@
 
 /* Changes */
 
-/* Header */
-.header, .sidebar {
+.container, .header, .sidebar {
   display: grid;
 }
+
+.container {
+  grid-template: 1fr 9fr / 1fr 5fr;
+}
+
+/* Header */
 
 .header {
   grid-template-columns: 1fr 2fr;
@@ -123,4 +128,11 @@ ul {
 }
 
 /* Sidebar */
+<<<<<<< HEAD
 >>>>>>> fe0c03b (Add css labeling)
+=======
+
+.sidebar {
+  grid-template-rows: repeat(4, 1fr);
+}
+>>>>>>> dcb0b27 (Add container grid)
