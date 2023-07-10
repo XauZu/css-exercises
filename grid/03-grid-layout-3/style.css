@@ -89,3 +89,26 @@
   font-size: 13px;
   font-weight: normal;  
 }
+
+/* Changes */
+.header, .sidebar {
+  display: grid;
+}
+
+.header {
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.logo {
+  place-self: start;
+}
+
+.menu > ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+ul {
+  list-style: none;
+}
