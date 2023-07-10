@@ -100,7 +100,7 @@
 }
 
 .container {
-  grid-template: 1fr 9fr / 1fr 5fr;
+  grid-template: 1fr 1fr 8fr / 1fr 5fr;
   gap: 4px;
 }
 
@@ -137,9 +137,21 @@ ul {
 .sidebar {
   grid-template-rows: repeat(4, 1fr);
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 >>>>>>> dcb0b27 (Add container grid)
 =======
   gap: 50px;
 }
 >>>>>>> adde850 (Add container and sidebar gap)
+=======
+  grid-row: span 2;
+  gap: 50px;
+}
+
+/* Footer */
+
+.footer {
+  grid-column: span 2;
+}
+>>>>>>> 49191cb (Fix sidebar span, Add footer span)
