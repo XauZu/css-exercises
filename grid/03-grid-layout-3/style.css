@@ -107,6 +107,7 @@
 
 .header {
   grid-template-columns: 1fr 2fr;
+  grid-column: span 2;
   align-items: center;
 }
 
