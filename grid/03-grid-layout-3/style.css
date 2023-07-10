@@ -101,6 +101,7 @@
 
 .container {
   grid-template: 1fr 9fr / 1fr 5fr;
+  gap: 4px;
 }
 
 /* Header */
@@ -135,5 +136,10 @@ ul {
 
 .sidebar {
   grid-template-rows: repeat(4, 1fr);
+<<<<<<< HEAD
 }
 >>>>>>> dcb0b27 (Add container grid)
+=======
+  gap: 50px;
+}
+>>>>>>> adde850 (Add container and sidebar gap)
