@@ -44,6 +44,30 @@ body {
 
 .text {
   max-width: 400px;
+
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.center > .header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.center > .buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.text {
+  max-width: 400px;
 }
 
 .icon {
@@ -57,6 +81,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  justify-self: left;
+  flex: 0 0 auto;
   
   justify-self: left;
   flex: 0 0 auto;
@@ -79,6 +106,7 @@ body {
 }
 
 button {
+  cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
 }
